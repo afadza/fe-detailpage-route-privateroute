@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Poppins:wght@300&family=Righteous&family=Sen:wght@500&display=swap');
+@layer base {
+    body {
+        @apply font-[Poppins];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
